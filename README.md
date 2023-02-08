@@ -1,3 +1,9 @@
+Gantt Chart > https://docs.google.com/spreadsheets/d/1rAeFHqnx2-6wA9QbpEMj5txFeKtVDzjdEAq-a7Y_Vnw/edit#gid=1456014752
+
+
+Idea Spreadsheet:
+https://docs.google.com/spreadsheets/d/1UABHPSkzFKOkV581Cx0ah0-eAIWTI2gbSk-g7OihEIQ/edit#gid=2082381245
+
 **Proposal**
 Your proposal should answer Heilmeier's questions (all 9 of them; see list below); if you think a question is not very relevant, briefly explain why. In other words, your proposal should describe what you plan to do (the problem to address), why you want to do it, how you will do it (what tools? e.g., SQLite, PostgreSQL, Hadoop, Kinect, iPad, etc.), how your approach is better than the state of the art, why it may succeed, and when it does, what differences will it make, how you will measure success, how long it's gonna take, etc.
 
@@ -39,5 +45,3 @@ To - Do list
 
 
 
-Idea Spreadsheet:
-https://docs.google.com/spreadsheets/d/1UABHPSkzFKOkV581Cx0ah0-eAIWTI2gbSk-g7OihEIQ/edit#gid=2082381245
