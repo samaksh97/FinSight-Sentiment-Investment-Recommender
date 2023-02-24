@@ -9,10 +9,21 @@ Your proposal should answer Heilmeier's questions (all 9 of them; see list below
 
 9 Heilmeier questions (source)
 
-1. What are you trying to do? Articulate your objectives using absolutely no jargon.
+
+1. What are you trying to do? Articulate your objectives using absolutely no jargon. - All
+
+We are looking to build a smart portfolio optimizer that leverages financial mathematics alongside ML and NLP on financial stock prices and data for the news and events from the web. 
+
+First, the user completes a risk profile survey where we would run a classification model/rule based model to classify the risk profiles as 'risk-averse', 'risk-neutral' or 'risk-lover'. We plan to use synthetic data to train our classification model.
+
+Once we get the risk profile - 
+
+we get filter the stocks which has a positive index 
 
 
-2. How is it done today; what are the limits of current practice?
+
+
+2. How is it done today; what are the limits of current practice? 
 
 
 3. What's new in your approach? Why will it be successful?
