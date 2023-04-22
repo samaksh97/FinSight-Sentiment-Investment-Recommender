@@ -14,6 +14,7 @@ How to setup and run:
 </pre>
 
 4. Setup Jupytab by doing the following:
+<pre>
   a. Install conda and create a virtual environment with Python=3.7
   b. Install Jupyter Kernel Gateway following these instructions: https://github.com/jupyter-server/kernel_gateway
   c. Install JupyTab following these instructions here: https://github.com/CFMTech/Jupytab#installation
@@ -23,14 +24,16 @@ How to setup and run:
   e. Once the jupytab server is started, you will get a link in the terminal that looks like (please open): http://sangeetas-mbp.lan:8888 to verify that your Jupytab instance is live
   f. Open Tableau Data Sources and add a new Web Data Connector data source with the link generated above
   g. Feel free to preview the data table and hit refresh to bring in the data
-  
+</pre>
+
 5. Your Tableau Dashboard and Visualization is ready for exploration!
 
 
 Folder Name Legend:
-
+</pre>
 1. Visualization Data: A python notebook that generates dva_stock_prices_u.csv output that is used in Tableau Input
 2. Sentiment Analysis: A python notebook that calculates headlines as positive, negative or neutral
 3. Financial News Data: 
 4. Documents: Misc. documents
 5. data_sources: Data source dependenies for Tableau (Project Viz.twbx)
+</pre>
