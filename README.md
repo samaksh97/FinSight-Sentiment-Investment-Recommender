@@ -23,3 +23,12 @@ How to setup and run:
   g. Feel free to preview the data table and hit refresh to bring in the data
   
 5. Your Tableau Dashboard and Visualization is ready for exploration!
+
+
+Folder Name Legend:
+
+1. Visualization Data: A python notebook that generates dva_stock_prices_u.csv output that is used in Tableau Input
+2. Sentiment Analysis: A python notebook that calculates headlines as positive, negative or neutral
+3. Financial News Data: 
+4. Documents: Misc. documents
+5. data_sources: Data source dependenies for Tableau (Project Viz.twbx)
