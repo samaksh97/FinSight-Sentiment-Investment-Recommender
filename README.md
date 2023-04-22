@@ -9,9 +9,8 @@ How to setup and run:
 
 3. From the data_sources folder in the repository, do the following:
 
-  a. Add newEval.csv and dva_stock_prices_u.csv as data source dependencies to "sample" data source in Tableau 
-
-  b. Add this Google Sheets as data source dependency to "Form Responses 1" data source in Tableau (https://docs.google.com/spreadsheets/d/1nS8WRaVB5S2aaxMiFpVHxSrEE12lx6TGs_WyAkcUSzU/edit?resourcekey#gid=333614162)
+>>>> a. Add newEval.csv and dva_stock_prices_u.csv as data source dependencies to "sample" data source in Tableau 
+>>>> b. Add this Google Sheets as data source dependency to "Form Responses 1" data source in Tableau (https://docs.google.com/spreadsheets/d/1nS8WRaVB5S2aaxMiFpVHxSrEE12lx6TGs_WyAkcUSzU/edit?resourcekey#gid=333614162)
 
 4. Setup Jupytab by doing the following:
   a. Install conda and create a virtual environment with Python=3.7
