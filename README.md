@@ -1,58 +1,25 @@
-Gantt Chart > https://docs.google.com/spreadsheets/d/1rAeFHqnx2-6wA9QbpEMj5txFeKtVDzjdEAq-a7Y_Vnw/edit#gid=1456014752
+FinSight: Your Vision for Financial Insights
 
+FinSight is a web based portfolio balancer that uses NLP and sentiment analysis to analyze 10K and 10Q Fiscal Reports to generate an optimal master list of securities for trading. Then, that list is filtered through a risk assessment quiz that the user completes to understand the risk profile. Finally, that filtered list of securities is balanced into an investible portfolio using portfolio balancing techniques.
 
-Idea Spreadsheet:
-https://docs.google.com/spreadsheets/d/1UABHPSkzFKOkV581Cx0ah0-eAIWTI2gbSk-g7OihEIQ/edit#gid=2082381245
+How to setup and run:
+1. Clone Repository
 
-**Proposal**
-Your proposal should answer Heilmeier's questions (all 9 of them; see list below); if you think a question is not very relevant, briefly explain why. In other words, your proposal should describe what you plan to do (the problem to address), why you want to do it, how you will do it (what tools? e.g., SQLite, PostgreSQL, Hadoop, Kinect, iPad, etc.), how your approach is better than the state of the art, why it may succeed, and when it does, what differences will it make, how you will measure success, how long it's gonna take, etc.
+2. Open Tableau Project file: Project Viz.twbx
 
-9 Heilmeier questions (source)
+3. From the data_sources folder in the repository, do the following:
+  a. Add newEval.csv and dva_stock_prices_u.csv as data source dependencies to "sample" data source in Tableau 
+  b. Add this Google Sheets as data source dependency to "Form Responses 1" data source in Tableau (https://docs.google.com/spreadsheets/d/1nS8WRaVB5S2aaxMiFpVHxSrEE12lx6TGs_WyAkcUSzU/edit?resourcekey#gid=333614162)
 
-
-1. What are you trying to do? Articulate your objectives using absolutely no jargon. - All
-
-We are looking to build a smart portfolio optimizer that leverages financial mathematics alongside ML and NLP on financial stock prices and data for the news and events from the web. 
-
-First, the user completes a risk profile survey where we would run a classification model/rule based model to classify the risk profiles as 'risk-averse', 'risk-neutral' or 'risk-lover'. We plan to use synthetic data to train our classification model.
-
-Once we get the risk profile - 
-
-we get filter the stocks which has a positive index 
-
-
-
-
-2. How is it done today; what are the limits of current practice? 
-
-
-3. What's new in your approach? Why will it be successful?
-
-
-4. Who cares?
-
-5. If you're successful, what difference and impact will it make, and how do you measure them (e.g., via user studies, experiments, ground truth data, etc.)?
-
-
-6. What are the risks and payoffs?
-
-
-7. How much will it cost?
-
-
-8. How long will it take?
-
-
-9. What are the midterm and final "exams" to check for success? How will progress be measured?
-Your proposal document must be no more than 2 letter-size pages long, excluding references. In other words, only the references do NOT count towards the page limit; everything else — including the literature survey — counts. Use at least 1-inch margin for each page (top, right, bottom, left).  It must use 11pt font (or larger). The document must be in PDF format. You may create the document using any software that you want; we highly recommend using LaTeX (see below for example LaTeX template). Include any figures, charts, tables, captions, etc. whenever useful — they count towards the page limit (they may include text whose font size is smaller than 11pt, but such text must be legible). Your document should be self-contained. For example, do not just say: "We plan to implement Smith's Foo-Tree data structure [Smith86], and we will study its performance." Instead, you should briefly review the key ideas in the references, and describe clearly the alternatives that you will be examining.
-
-
-
-To - Do list
-
-1. Samaksh/Emre: Follow up on the 6th member (Done)
-2. ALL: COME UP WITH PROJECT IDEAS/ LOOK AT APIs, past projects
-3. Vote 
-
-
-
+4. Setup Jupytab by doing the following:
+  a. Install conda and create a virtual environment with Python=3.7
+  b. Install Jupyter Kernel Gateway following these instructions: https://github.com/jupyter-server/kernel_gateway
+  c. Install JupyTab following these instructions here: https://github.com/CFMTech/Jupytab#installation
+  d. We have provided the config.ini and tester.ipynb (portfolio balancer code) in the repository
+  e. Using your terminal, navigate to the config.ini file directory
+  d. Then run: jupytab --config=config.ini
+  e. Once the jupytab server is started, you will get a link in the terminal that looks like (please open): http://sangeetas-mbp.lan:8888 to verify that your Jupytab instance is live
+  f. Open Tableau Data Sources and add a new Web Data Connector data source with the link generated above
+  g. Feel free to preview the data table and hit refresh to bring in the data
+  
+5. Your Tableau Dashboard and Visualization is ready for exploration!
