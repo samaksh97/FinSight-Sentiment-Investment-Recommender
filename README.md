@@ -13,7 +13,7 @@ How to setup and run:
 
 3. From the data_sources folder in the repository, do the following:
 <pre>
-  a. Add newEval.csv and dva_stock_prices_u.csv as data source dependencies to "sample" data source in Tableau 
+  a. Add newEval.csv and dva_stock_prices_u.csv as data source dependencies to "sentiment_stocks" data source in Tableau 
 </pre>
 
 4. Setup Jupytab by doing the following:
