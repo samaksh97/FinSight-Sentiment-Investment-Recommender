@@ -25,8 +25,13 @@ How to setup and run:
   e. Using your terminal, navigate to the config.ini file directory
   d. Then run: jupytab --config=config.ini
   e. Once the jupytab server is started, you will get a link in the terminal that looks like (please open): http://sangeetas-mbp.lan:8888 to verify that your Jupytab instance is live
-  f. Open Tableau Data Sources and add a new Web Data Connector data source with the link generated above
-  g. Feel free to preview the data table and hit refresh to bring in the data
+
+5. Launch dashboard and leverage Jupytab output as a Web Data Source. Do this by:
+  a. Open Tableau Data Sources and add a new Web Data Connector data source with the link generated above
+  b. Take the quiz and proceed to data visualization to evaluate the dashboard
+  c. If you notice that the data does not update, refresh the data sources. This is a known Tableau limitation where WDC does not support live connection and only allows extracts.
+  d. Feel free to preview the data table and hit refresh to bring in the data
+
 </pre>
 
 5. Your Tableau Dashboard and Visualization is ready for exploration!
