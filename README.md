@@ -43,5 +43,5 @@ CODE:
 2. Sentiment Analysis: A python notebook that calculates headlines as positive, negative or neutral
 3. Financial News Data: 
 4. Documents: Misc. documents
-5. data_sources: Data source dependenies for Tableau (Project Viz.twbx)
+5. data_sources: Data source dependencies for Tableau (Project Viz.twbx)
 </pre>
