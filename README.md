@@ -9,7 +9,7 @@ If you want to setup our Tableau locally, you can do the following:
 How to setup and run:
 1. Clone Repository
 
-2. Open Tableau Project file: Project Viz.twbx
+2. Open Tableau Project file: Project Viz.twbx found in CODE folder
 
 3. From the data_sources folder in the repository, do the following:
 <pre>
