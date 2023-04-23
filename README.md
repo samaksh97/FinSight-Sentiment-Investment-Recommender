@@ -32,9 +32,10 @@ How to setup and run:
   c. If you notice that the data does not update, refresh the data sources. This is a known Tableau limitation where WDC does not support live connection and only allows extracts.
   d. Feel free to preview the data table and hit refresh to bring in the data
 
+6. Your Tableau Dashboard and Visualization is ready for exploration!
 </pre>
 
-5. Your Tableau Dashboard and Visualization is ready for exploration!
+
 
 
 Folder Name Legend:
